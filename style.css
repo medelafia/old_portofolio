@@ -237,6 +237,7 @@ body {
         width: var(--width-primary);
         height: calc(100% - var(--width-homeMainLeft));
         background-color: var(--light-color);
+        align-items: center;
     }
     .homeMainLeft {
         width: var(--width-primary);
