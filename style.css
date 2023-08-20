@@ -162,6 +162,10 @@ body {
     margin: 0px 20px;
     font-weight: bold;
 }
+.homeBtns button a {
+    color: var(--light-color);
+    text-decoration: none;
+}
 .homeBtns button:first-child {
     background-color: var(--secodary-color);
 }
@@ -170,12 +174,18 @@ body {
     border: 1px solid var(--secodary-color);
     color: var(--secodary-color);
 }
+.homeBtns button:first-child:hover a {
+    color: var(--secodary-color);
+}
 .homeBtns button:last-child {
     background-color: var(--primary-color);
 }
 .homeBtns button:last-child:hover {
     background-color: var(--light-color);
     border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+.homeBtns button:last-child:hover a{
     color: var(--primary-color);
 }
 .homeMain img {
