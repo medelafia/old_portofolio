@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="links">
+            <div class="togglers"> 
+                <button class="toggler"><i class="fa-solid fa-bars" style="color: #f7f7f7;"></i></button>
+                <button class="reToggler"><i class="fa-solid fa-xmark" style="color: #ffffff;"></i></button>
+            </div>
+            <button data-target="home"><i class="fa-solid fa-house" style="color: #F3B41A;"></i></button>
+            <button data-target="about"><i class="fa-regular fa-address-card"></i></button>
+            <button data-target="services"><i class="fa-solid fa-bell-concierge"></i></button>
+            <button data-target="skills"><i class="fa-solid fa-code"></i></button>
+            <button data-target="contact"><i class="fa-solid fa-message"></i></button>
+        </div>
+        <div class="display">
+            <div id="home" class="active">
+                <header>
+                    <h1 class="pageTitle">home <span class="pageTitleSpan">home</span></h1>
+                </header>
+                <div class="homeMain">
+                    <div class="homeMainLeft">
+                                <p>
+                                    hello dears <br>, im <span>mohamed el afia </span><br>i'm a front end developer
+                                </p>
+                                <div class="homeBtns">
+                                    <button>download cv </button>
+                                    <button>hire me</button>
+                                </div>
+                    </div>
+                    <img src="images/pro.jpg" alt="">
+                    <div class="sqrt"></div>
+                    <div class="homeMainRight">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <span></span>
+                </div>
+            </div>
+            <div id="about">
+              <h1 class="pageTitle">about us <span class="pageTitleSpan">about us </span></h1>
+              <div class="aboutMain">
+                <div class="aboutText">
+                    <h1>about me </h1>
+                    <p>Welcome to mohamed's corner of the web! I'm a passionate and dedicated front-end developer with a flair for creating modern,
+                         user-friendly websites that adapt seamlessly across all devices.With a keen eye for design and a love for coding, 
+                         I bring visions to life in the digital realm.
+                        <br>
+                        I specialize in crafting engaging and responsive websites that captivate audiences and deliver memorable user experiences.
+                         From sleek landing pages that leave a lasting impression to intricate web applications that streamline processes.
+                    </p>
+                </div>
+                <div class="aboutPict">
+                    <img src="images/aboutPic.jpeg" alt="">
+                    <div class="whyMe">
+                        <h1>Why Choose Me</h1>
+                        <p>
+                            - Innovative Design <br>
+                            - Responsive Excellence <br>
+                            - User-Centric Approach <br>
+                            - Collaborative Spirit
+                        </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div id="services">
+                <h1 class="pageTitle">Services<span class="pageTitleSpan">Services</span></h1>    
+                <div class="mainServices">
+                    <div class="card">
+                        <div class="cardIcon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <div class="cardText">
+                                <h4>web developpemnet</h4>
+                                <p> building a modern web sites with the web3 technologies (html css js bootstrap react) </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="cardIcon">
+                            <p><i class="fa-solid fa-gears"></i></p>
+                        </div>
+                        <div class="cardText">
+                                <h4>maintenance</h4>
+                                <p>Maintaining websites and adding additional features to your site </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="cardIcon">
+                            <p><i class="fa-solid fa-mobile"></i></p>
+                        </div>
+                        <div class="cardText">
+                                <h4>responsive web site</h4>
+                                <p> make your web site responsive with all screens , or create a new responsive web site</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="skills">
+                <h1 class="pageTitle">My Skills <span class="pageTitleSpan">My Skills </span></h1>
+                <div class="mainSkills">
+                    <div class="skill">
+                        <p>html</p>
+                        <div class="skillPouEmpty">
+                            <div class="skillPou" data-pour="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>css</p>
+                        <div class="skillPouEmpty">
+                            <div class="skillPou" data-pour="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>javascript</p>
+                        <div class="skillPouEmpty">
+                            <div class="skillPou" data-pour="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>bootstrap</p>
+                        <div class="skillPouEmpty">
+                            <div class="skillPou" data-pour="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>react</p>
+                        <div class="skillPouEmpty">
+                            <div class="skillPou"  data-pour="60"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>java se </p>
+                        <div class="skillPouEmpty">
+                            <div class="skillPou"  data-pour="70"></div>
+                        </div>
+                    </div>
+                </div>
+                <p><span></span> others <span></span></p>
+                <div class="otherSkills"> 
+                  <div class="otherSkill">
+                    <i class="fa-solid fa-c"></i>
+                    <p>advenced C</p>
+                  </div>
+                  <div class="otherSkill">
+                    <i class="fa-brands fa-git-alt"></i>
+                    <p>git</p>
+                  </div>
+                  <div class="otherSkill">
+                    <i class="fa-brands fa-linux"></i>
+                    <p>linux</p>
+                  </div>
+                  <div class="otherSkill">
+                    <i class="fa-brands fa-android"></i>
+                    <p>android studio</p>
+                  </div>
+
+                </div>
+            </div>
+            <div id="contact">
+                <h1 class="pageTitle">contact us <span class="pageTitleSpan">contact us </span></h1>
+                <div class="contactMain">
+                    <div class="personalInfo">
+                        <div class="personalTextInfo">
+                            <h3>personal information </h3>
+                            <div class="info">
+                                <div class="locationInfo">
+                                    <p>location : bab taza,chefchaouen ,morroco</p>
+                                    <p>code postal : bab taza , 91002</p>
+                                </div>
+                                <div class="contactInfo">
+                                    <p>email : mohamedelafia016@gamil.com </p>
+                                    <p>what : 0658045721</p>
+                                    <p>phone : 0658045721 </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="positionIcon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                    </div>
+                    <div class="contactAndMap">
+                        <form action="">
+                            <input type="text" name="" id="" placeholder="enter your name">
+                            <input type="email" name="" id="" placeholder="enter your email">
+                            <input type="text" name="" id="" placeholder="enter the message">
+                            <input type="submit" value="send">
+                        </form>
+                        <div class="map">
+                            <iframe frameborder="0" src="https://www.bing.com/maps/embed?h=400&w=500&cp=35.04655409876787~-5.178016115695868&lvl=13&typ=d&sty=r&src=SHELL&FORM=MBEDV8" scrolling="no">
+                            </iframe>
+                            <div style="white-space: nowrap; text-align: center; width: 500px; padding: 6px 0;">
+                               <a id="largeMapLink" target="_blank" href="https://www.bing.com/maps?cp=35.05922759570436~-5.189817275789096&amp;sty=r&amp;lvl=11&amp;FORM=MBEDLD">Larger Map</a> &nbsp; | &nbsp;
+                               <a id="dirMapLink" target="_blank" href="https://www.bing.com/maps/directions?cp=35.05922759570436~-5.189817275789096&amp;sty=r&amp;lvl=11&amp;rtp=~pos.35.05922759570436_-5.189817275789096____&amp;FORM=MBEDLD">Directions</a>
+                           </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
